@@ -1,0 +1,30 @@
+.customer-login{
+    border: 1px solid black;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #333;
+    border-radius: 25px;
+}
+
+.cust-login{
+    height:500px;
+    background-color: black;
+    border-radius: 25px 50% 50% 25px;
+}
+.cust-login h3{
+    color:white;
+    font-size: 40px;
+    font-weight: lighter;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+button{
+    position: relative;
+    font-size: 25px;
+    font-weight: lighter;
+    border: 1.5px solid white;
+    color:white;
+    top:120px;
+    width:100px;
+}
