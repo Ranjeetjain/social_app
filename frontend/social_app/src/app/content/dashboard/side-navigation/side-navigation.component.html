@@ -1,0 +1,32 @@
+<div class="col-12">
+    <div class="side-nav">
+        <ul>
+            <li class="button">
+                <button class="btn btn-primary" (click)="slide()">click</button>
+            </li>
+            <li>icon-1</li>
+            <li>icon-2</li>
+            <li>icon-3</li>
+            <li>icon-4</li>
+            <li>icon-5</li>
+            <li>icon-6</li>
+            <li>icon-7</li>
+        </ul>
+    </div>
+
+    <div  *ngIf="show" class="content">
+        <div class="nav">
+            <ul>
+                <button (click)="hidden()">&times;</button><br/>
+                <li>colors</li>
+                <li>TypoGraphy</li>
+                <span>components</span>
+                <li>icons</li>
+                <li>Widgets</li>
+                <li>plugins</li>
+                <li>Calaneders</li>
+                <li>Data Tables</li>
+            </ul>
+        </div>
+    </div>
+</div>
